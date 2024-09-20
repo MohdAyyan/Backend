@@ -1,0 +1,6 @@
+Schema - Define the Structure
+    - Schema is a blueprint of a document. It defines the shape of the document.
+    - It defines the data types of the fields in the document.
+    - It defines the required fields in the document.
+    Schema - Model
+    using model we do crud operations
