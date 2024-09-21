@@ -14,7 +14,7 @@ connectMongoDb()
 app.use(express.urlencoded({extended:false}))
 app.use(logReqRes("log.txt"));
 
-app.use("/api/user",userRouter)
+app.use("/api/users",userRouter)
 
  app.listen(8000, () => {
         console.log("Server Started");
